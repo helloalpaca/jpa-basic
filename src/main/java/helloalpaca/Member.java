@@ -7,6 +7,16 @@ import javax.persistence.Id;
 //@Table(name = "USER")
 public class Member {
     // windows에서 alt+insert = getter/setter 자동완성
+    // mac에선 command + N
+
+    // 기본 생성자가 있어야 한다.
+    public Member() {
+    }
+
+    public Member(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     @Id //pk를 알려주는 어노테이션
     private Long id;

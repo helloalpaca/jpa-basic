@@ -3,6 +3,8 @@
 자바 ORM 표준 JPA 프로그래밍 - 기본편
 23.07.20 ~
 
+<br />
+
 ## 📚 시작 가이드
 
 ### Requirements
@@ -13,7 +15,6 @@ For building and running the application you need:
 - h2 database
 
 <br>
-<hr style="border:0; height:2px; background:gray;">
 
 ## :frog: Stacks
 
