@@ -1,10 +1,11 @@
-package helloalpaca;
+package helloalpaca.crud;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
-//@Table(name = "USER")
+@Table(name = "USERS")
 public class Member {
     // windows에서 alt+insert = getter/setter 자동완성
     // mac에선 command + N
